@@ -1,0 +1,52 @@
+/*
+  Name: Richard Huynh
+  Date: 08.28.2022
+  Section: CSE 190E
+  Description: 
+*/
+
+header {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+#underlining-center {
+    text-decoration: underline;
+    text-align: center;
+}
+#center {
+    text-align: center;
+}
+.profile-pic {
+    float: center;
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 35px;
+}
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-item {
+    margin: 100px;
+    padding: 0.5%;
+    border: 100px solid black;
+    background-color: white;
+}
+
+.flexbox-item-1 {
+    min-height: 300px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.flexbox-item-2 {
+    min-height: 300px;
+    text-align: center;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    text-align: center;
+}
